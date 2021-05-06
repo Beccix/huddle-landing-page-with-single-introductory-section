@@ -1,0 +1,84 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+html {
+    font-size: 100%
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    min-height: 100vh;
+    background: url(/images/bg-desktop.svg);
+    background-color: var(--Violet);
+    padding: 4rem 5rem 2.5rem 4.75rem;
+}
+
+.logo-img {
+    width: 12.5rem;
+    height: 2rem;
+}
+
+.main {
+    display: flex;
+}
+
+.main-text {
+    margin: 0 auto auto 3.6rem;
+}
+
+.h1-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 27rem;
+    height: 5.75rem;
+    color: #fff;
+    margin-bottom: 2.4rem;
+}
+
+.p-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 1rem;
+    width: 31.8rem;
+    height: 4.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-button {
+    width: 12.5rem;
+    height: 3.5rem;
+    border: none; 
+    box-shadow: 0 0 0.75rem 0 #000000;
+    border-radius: 2rem;
+}
+
+.main-button:hover {
+    background-color: var(--Soft-Magenta);
+}
+
+.img-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fab {
+    padding: 0.7rem;
+    color: white;
+    border: .1rem solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+}
+
+.fab:hover {
+    color: var(--Soft-Magenta);
+    border: .1rem solid var(--Soft-Magenta);
+}
